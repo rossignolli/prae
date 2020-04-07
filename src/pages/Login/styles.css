@@ -3,40 +3,145 @@
   src: url("../../assets/fonts/Gilroy-ExtraBold.otf");
 }
 
-
 .logon-container {
-      width: 100%;
-      max-width: 1120px;
-      height: 100vh;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-   
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.content {
-      border-radius: 10px;
+
+.logon-container .form form button {
+  color: #ffffff;
+  width: 180px;
+  height: 40px;
+  border-radius: 5px;
+  font-family: "GilroyBold";
+  background: #612f74;
+  border: none;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 0.01em;
+  margin-top: 37px;
+
+  margin-bottom: 20px;
+
 }
+
+.logon-container .form form p {
+      color: #a6acbe;  
+}
+
+.logon-container .form form a {
+      color: rgb(162, 204, 72);  
+      font-family: "GilroyBold";
+      text-decoration: none;
+}
+
+.logon-container .form form  {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+.logon-container .form  h1 {
+      text-align: center;
+      font-size: 42px;
+margin-bottom: 60px;
+font-family: "GilroyBold";
+}
+
+.logon-container .content .form form .input-container{
+      display: flex;
+  width: 100%;
+  align-items: center;
+      
+}
+
+.logon-container .content .form form input{
+width: 450px;
+      
+}
+
+.logon-container .content .form form .input-container svg {
+      margin-right: 18px; 
+}
+
+.logon-container .form form .input-container .icon {
+      padding: 10px;
+      background: dodgerblue;
+      color: white;
+      min-width: 50px;
+      text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .logon-container .content {
-      padding: 52px;
-      background: #FFFFFF;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-
+  padding: 52px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
 }
 
-.logon-container .content .adv h3 {
-      font-family: Gilroy;
-      font-style: normal;
-      font-weight: 800;
-      font-size: 18px;
-      line-height: 22px;
-      letter-spacing: 0.01em;
-      color: #612F74;
+.logon-container .content .adv .ptitle {
+  font-family: "GilroyBold";
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  color: #612f74;
+  text-align: center;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.logon-container .content .adv {
+      display: flex;
+      flex-direction: column;
       text-align: center;
-      padding-top: 11px;
-      padding-bottom: 11px;
+      padding: 20px;
+      border-left: 1px solid #ddd;
+      color: #a6acbe;
+      border-radius: 4px;
+      margin-left: 50px;
+}
+
+
+.logon-container .content .adv p {
+  text-align: center;
+  color: #a6acbe;
+  font-size: 22px;
+}
+
+.logon-container .content .adv img {
+  border-radius: 4px;
+  padding: 5px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logon-container .content .adv span {
+  font-family: "GilroyBold";
+  color: #612f74;
 }
