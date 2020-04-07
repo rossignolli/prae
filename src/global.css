@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "GilroyLight";
+  src: url("./assets/fonts/Gilroy-Light.otf");
+  font-family: "GilroyBold";
+  src: url("./assets/fonts/Gilroy-ExtraBold.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font:  400 14px , "GilroyLight", "GilroyBold", Arial, sans-serif;
+  background: #DFE1EB;
+  -webkit-font-smoothing: antialiased;
+}
+
+input, button, textarea{
+  font:  400 14px , "GilroyLight", "GilroyBold", Arial, sans-serif;
+}
+
+::placeholder {
+      color: #A6ACBE;
+    }
+
+button{
+      cursor: pointer;
+}
+
+form input {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border-radius: 10px;
+      border: none; 
+      background:#EDEDF6;
+      color: #A6ACBE;
+}

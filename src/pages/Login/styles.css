@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "GilroyBold";
+  src: url("../../assets/fonts/Gilroy-ExtraBold.otf");
+}
+
+
+.logon-container {
+      width: 100%;
+      max-width: 1120px;
+      height: 100vh;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   
+}
+
+.content {
+      border-radius: 10px;
+}
+
+.logon-container .content {
+      padding: 52px;
+      background: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+}
+
+.logon-container .content .adv h3 {
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 0.01em;
+      color: #612F74;
+      text-align: center;
+      padding-top: 11px;
+      padding-bottom: 11px;
+}
