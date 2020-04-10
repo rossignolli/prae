@@ -7,6 +7,8 @@ import {
   FiChevronDown,
   FiBell,
   FiLogOut,
+  FiPlus,
+  FiEdit2,
 } from "react-icons/fi";
 import Rogerinho from "../../assets/images/profile.jpg";
 
@@ -37,6 +39,8 @@ export default function Dashboard() {
         <div className="menu-items">
           <a href="test">
             <FiPlusCircle size={50} color="#422047" />
+            
+
           </a>
         </div>
 
@@ -68,11 +72,22 @@ export default function Dashboard() {
           <FiLogOut size={20} color="#422047" />
         </div>
         <div className="title-header">
-          <p>Dashboard</p>
-          <p>Panorama geral de sua empresa</p>
-          <button type="submit">Gerenciar</button>
-          <button type="submit">Adicionar uma preventiva</button>
+          <button type="submit"><FiEdit2 size={25} color="#612F74" /><div className="text-container">Gerenciar <br/>Equipamentos</div></button>
+          <button type="submit"><FiPlus size={30} color="#FFFFFF" />Adicionar uma preventiva</button>
         </div>
+          <div className="test">
+          <p>Dashboard</p>
+          </div>
+
+          <div className="cards-container">
+          <div className="cards">
+          </div>
+          <div className="cards">
+          </div>
+          <div className="cards">
+          </div>
+
+          </div>
       </div>
     </div>
   );
