@@ -12,9 +12,10 @@
 .menu {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
   width: 100px;
   background: #49334d;
+  position: fixed;
 }
 
 .content-dashboard .menu .logo {
@@ -59,42 +60,40 @@
   background: #dfe1eb;
 }
 
-.header {
-  background: #dfe1eb;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
 
-.header img {
+.login-pic-container img {
   height: 50px;
   width: 50px;
   border-radius: 50%;
 }
-.header svg {
+.login-pic-container svg {
   margin-right: 24px;
 }
 
-.header svg + svg {
-  margin-right: 80px;
+.login-pic-container .profile-content {
+  display: flex;
+
 }
 
-.header .login-pic-container {
+.login-pic-container svg + svg {
+  margin-right: 0;
+}
+.login-pic-container {
   display: flex;
   align-items: center;
-  margin-right: 48px;
+  justify-content: space-between  ;
+  margin-left: 100px;
+
 }
 
-.header .login-pic-container p {
+.login-pic-container p {
   color: #000000;
   text-decoration: none;
   font-family: "GilroyLight";
   margin: 14px;
 }
 
-.header .login-pic-container p span {
+.login-pic-container p span {
   color: #8b8888;
   text-decoration: none;
   font-family: "GilroyLight";
@@ -106,26 +105,26 @@
   align-items: center;
 }
 
-.title-header button {
+.login-pic-container button {
   width: 225px;
   height: 50px;
   border-radius: 5px;
   font-family: "GilroyBold";
   background: #ffffff;
   border: 1px solid #dadce6;
-  margin: 20px;
+
   color: #612f74;
   flex-wrap: wrap;
 }
 
-.title-header button {
+.login-pic-container button {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-.title-header button + button {
+.login-pic-container button + button {
   display: flex;
   align-items: center;
   width: 225px;
@@ -137,7 +136,7 @@
   color: #ffffff;
 }
 
-.title-header button + button svg {
+.login-pic-container button + button svg {
   margin-right: 5px;
 }
 
@@ -147,9 +146,11 @@
   text-decoration: none;
   font-family: "GilroyBold";
   font-size: 30px;
+  margin-left: 17px;
 }
 
 .test {
+  margin-left: 100px;
   background: #dfe1eb;
   margin-bottom: 10px;
 }
@@ -158,50 +159,122 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
-  margin: 0 auto;
+  margin-left: 100px;
 }
 .cards {
-
-  width: 395px;
-  height: 151px;
-  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
   color: #612f74;
   background: #ffffff;
-  margin: 0 auto;
   border-radius: 10px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 13px 0px 0px rgb(232, 232, 236);
+-moz-box-shadow: 0px 13px 0px 0px rgb(232, 232, 236);
+box-shadow: 0px 6px 0px 0px rgb(232, 232, 236);
 }
 
+.cards svg {
+  padding: 10px;
+  border-radius: 40%;
+  background: #f8f5fd;
+  
+}
+
+.cards .cards-expired {
+  background: rgb(237, 65, 79);
+}
 
 .big-card {
-  width: 840px;
-  height: 378px;
-grid-column: 1/3;
-grid-row: 2/4;
-background: #FFFFFF;
-border-radius: 10px;
-margin: 0 auto;
+  grid-column: 1/3;
+  grid-row: 2/4;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .big-card2 {
-grid-column: 3;
-grid-row: 2/5;
-background: #FFFFFF;
-border-radius: 10px;
-width: 395px;
-height: 572px;
-margin: 0 auto;
+  grid-column: 3;
+  grid-row: 2/5;
+  background: #ffffff;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
 }
 
 .big-card3 {
   grid-column: 4;
   grid-row: 2/5;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 10px;
-  width: 395px;
-height: 572px;
-margin: 0 auto;
+  width: 100%;
+  height: 100%;
+} 
+
+.cards p {
+  font-size: 16px;
+  color: #a6acbe;
+  margin-top: 11px;
+  font-family: "GilroyLight";
+}
+
+.cards .text-container {
+  color: #000000;
+  font-family: "GilroyBold";
+  font-size: 30px;
+}
+
+.cards .text-container {
+  margin-left: 30px;
+}
+
+
+
+.cards .cards-warning {
+}
+
+@media only screen and (max-width: 760px) {
+
+  .main-dash {
+    margin-left: 10px;
   }
-  
+  .cards-container {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .cards-container .cards {
+    margin-bottom: 20px;
+  }
 
 
 
+  .login-pic-container {
+    margin: 0;
+    margin-left: 100px;
+  }
+
+.login-pic-container button {
+    width: 50px;
+  }
+
+  .login-pic-container button svg {
+    margin: 0;
+  }
+  .login-pic-container button + button svg {
+    margin: 0;
+  }
+
+  .login-pic-container button + button {
+    width: 50px;
+  }
+  .login-pic-container button span {
+    display: none;
+  }
+
+  .login-pic-container p {
+    display: none;
+  }
+}
