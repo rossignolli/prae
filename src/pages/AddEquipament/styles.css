@@ -157,27 +157,27 @@
 
 .cards-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-gap: 20px;
   margin-left: 100px;
 }
 .cards {
+  grid-column: 1/3;
+  grid-row: 1/4;
   display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   height: 100%;
   color: #612f74;
   background: #ffffff;
   border-radius: 10px;
-  padding: 20px;
   -webkit-box-shadow: 0px 13px 0px 0px rgb(232, 232, 236);
 -moz-box-shadow: 0px 13px 0px 0px rgb(232, 232, 236);
 box-shadow: 0px 6px 0px 0px rgb(232, 232, 236);
 }
 
+
 .cards svg {
-  padding: 10px;
   border-radius: 40%;
   background: #f8f5fd;
   
@@ -195,31 +195,43 @@ margin-left: 20px;
   background: rgb(237, 65, 79);
 }
 
-.big-card {
-  grid-column: 1/3;
-  grid-row: 2/4;
-  background: #ffffff;
-  border-radius: 10px;
-  padding: 20px;
-}
-
-.big-card2 {
+.big-card2{
   grid-column: 3;
-  grid-row: 2/5;
+  grid-row: 2;
   background: #ffffff;
   border-radius: 10px;
-  width: 100%;
-  height: 100%;
 }
 
-.big-card3 {
-  grid-column: 4;
-  grid-row: 2/5;
+
+.cards2 {
+  padding: 18px;
+  grid-column: 3;
+  grid-row: 1;
   background: #ffffff;
   border-radius: 10px;
   width: 100%;
-  height: 100%;
+  height: 151px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 } 
+
+.cards2 .text-container {
+  margin-left: 25px;
+}
+
+.cards2 .text-container span {
+  font-family: "GilroyBold";
+  color: #000000;
+}
+
+.cards2 .text-container  {
+  font-family: "GilroyLight";
+  color: #A6ACBE;
+}
+
+
+
 
 .cards p {
   font-size: 16px;
@@ -238,6 +250,62 @@ margin-left: 20px;
   margin-left: 30px;
 }
 
+.cards .button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  width: 100%;
+}
+
+.cards .button button {
+  width: 225px;
+height: 50px;
+background: #F8F8FB;
+border-radius: 5px;
+border: none;
+color: #612f74;
+font-family: "GilroyBold";
+margin-left: 40px;
+}
+
+.cards .button button + button{
+  width: 225px;
+height: 50px;
+background: #98C632;
+border-radius: 5px;
+border: none;
+color: #ffff;
+font-family: "GilroyBold";
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+.cards form .button{
+ display: flex;
+ flex-direction: column;
+}
+
+.cards form .colum2 {
+  margin-left: 50px;
+}
+
+.cards form .colum1 input  {
+
+  margin-bottom: 23px;
+}
+
+.cards form .form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards form textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+}
 
 
 .cards .cards-warning {
@@ -256,8 +324,6 @@ margin-left: 20px;
   .cards-container .cards {
     margin-bottom: 20px;
   }
-
-
 
   .login-pic-container {
     margin: 0;

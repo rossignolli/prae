@@ -12,9 +12,8 @@ import {
   FiHardDrive,
   FiCheckCircle,
   FiTrendingUp,
- FiCalendar,
- FiAlertCircle,
-
+  FiCalendar,
+  FiAlertCircle,
 } from "react-icons/fi";
 import Rogerinho from "../../assets/images/profile.jpg";
 
@@ -22,7 +21,7 @@ import Rogerinho from "../../assets/images/profile.jpg";
 
 import "./styles.css";
 
-export default function Dashboard() {
+export default function AddEquipament() {
   return (
     <div className="content-dashboard">
       <div className="menu">
@@ -53,6 +52,7 @@ export default function Dashboard() {
             <FiLock size={50} color="#422047" />
           </a>
         </div>
+
         <div className="menu-items">
           <a href="teste">
             <FiFolder size={50} color="#422047" />
@@ -61,14 +61,14 @@ export default function Dashboard() {
       </div>
 
       <div className="main-dash">
-        
-          <div className="login-pic-container">
-            <div className="button-house">
+        <div className="login-pic-container">
+          <div className="button-house">
             <button type="submit">
               <FiEdit2 size={25} color="#612F74" />
               <div className="text-container">
-                <span>Gerenciar <br />
-                Equipamentos
+                <span>
+                  Gerenciar <br />
+                  Equipamentos
                 </span>
               </div>
             </button>
@@ -76,8 +76,8 @@ export default function Dashboard() {
               <FiPlus size={30} color="#FFFFFF" />
               <span>Adicionar preventiva</span>
             </button>
-            </div>
-            <div className="profile-content">
+          </div>
+          <div className="profile-content">
             <p>
               Rogerinho do Ingá <br /> &nbsp; &nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -85,64 +85,52 @@ export default function Dashboard() {
             </p>
             <img className="profile-pic" src={Rogerinho} alt="Profile Pic" />
             <FiChevronDown size={20} color="#422047" />
-            </div>
+          </div>
           <FiBell size={20} color="#422047" />
           <FiLogOut size={20} color="#422047" />
-          </div>
-       
+        </div>
+
         <div className="title-header"></div>
         <div className="test">
-          <p>Dashboard</p>
+          <p>Adicionar Equipamento</p>
         </div>
 
         <div className="cards-container">
           <div className="cards">
-            <FiHardDrive size={60} color="#612F74" />
-            <div className="text-container">
-              65 <p>Equipamentos Cadastrados</p>
+            <form action="" method="post">
+              <div className="form">
+                <div className="colum1">
+                  <input placeholder="Nome do Equipamento" />
+                  <input placeholder="Modelo do Equipamento" />
+                  <input placeholder="Hostname" />
+                  <input placeholder="Sistema Operacional" />
+                  <input placeholder="Técnico Responsável" />
+                </div>
+                <div className="colum2">
+                  <input placeholder="Número de Série" />
+                  <input placeholder="Tipo de Equipamento" />
+                  <input placeholder="Voltagem" />
+                  <input placeholder="Validada da Preventiva" />
+                  <textarea type="text" placeholder="Voltagem" />
+                </div>
+              </div>
+            </form>
+            <div className="button">
+              <button type="submit">Voltar</button>
+              <button type="submit">Adicionar Equipamento</button>
             </div>
           </div>
-          <div className="cards">
-          <FiCalendar className="cards-expired" size={60} color="#FFF" />
+          <div className="cards2">
+          <FiHardDrive size={50} color="#612F74" />
             <div className="text-container">
-              65 <p>Preventivas vencidas</p>
+              <span>65</span> <p>Equipamentos Cadastrados</p>
             </div>
-          </div>
-          <div className="cards">
-          <FiAlertCircle className="cards-warning" size={60} color="#E68D0B" />
-            <div className="text-container">
-              65 <p>Preventivas perto do vencimento</p>
             </div>
-          </div>
-          <div className="cards">
-          <FiTrendingUp size={60} color="#98C632" />
-            <div className="text-container">
-              12 <p>Preventivas efetuadas em <b>6 meses</b></p>
-            </div>
-          </div>
-          <div className="cards">
-          <FiAlertCircle className="cards-warning" size={60} color="#E68D0B" />
-            <div className="text-container">
-              65 <p>Preventivas perto do vencimento</p>
-            </div>
-          </div>
-          <div className="cards">
-          <FiAlertCircle className="cards-warning" size={60} color="#E68D0B" />
-            <div className="text-container">
-              65 <p>Preventivas perto do vencimento</p>
-            </div>
-          </div>
-          <div className="big-card">
-          <FiCalendar className="cards-expired" size={60} color="#FFF" />
-            Teste
-          </div>
+
           <div className="big-card2">
-          <FiCalendar className="cards-expired" size={60} color="#FFF" />
-           Teste
-          </div>
-          <div className="big-card3">
-          <FiCalendar className="cards-expired" size={60} color="#FFF" />
-           Teste
+          <a href="test">
+            <FiAlertCircle size={50} color="#422047" />
+          </a>
           </div>
         </div>
       </div>
