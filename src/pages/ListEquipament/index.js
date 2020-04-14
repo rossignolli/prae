@@ -21,7 +21,7 @@ import Rogerinho from "../../assets/images/profile.jpg";
 
 import "./styles.css";
 
-export default function AddEquipament() {
+export default function ListEquipament() {
   return (
     <div className="content-dashboard">
       <div className="menu">
@@ -92,33 +92,150 @@ export default function AddEquipament() {
 
         <div className="title-header"></div>
         <div className="test">
-          <p>Adicionar Equipamento</p>
+          <p>Gerenciar Equipamentos</p>
         </div>
 
         <div className="cards-container">
           <div className="cards">
-            <form action="" method="post">
-              <div className="form">
-                <div className="colum1">
-                  <input placeholder="Nome do Equipamento" />
-                  <input placeholder="Modelo do Equipamento" />
-                  <input placeholder="Hostname" />
-                  <input placeholder="Sistema Operacional" />
-                  <input placeholder="Técnico Responsável" />
-                </div>
-                <div className="colum2">
-                  <input placeholder="Número de Série" />
-                  <input placeholder="Tipo de Equipamento" />
-                  <input placeholder="Voltagem" />
-                  <input placeholder="Validada da Preventiva" />
-                  <textarea type="text" placeholder="Voltagem" />
-                </div>
-              </div>
-            </form>
-            <div className="button">
-              <button type="submit">Voltar</button>
-              <button type="submit">Adicionar Equipamento</button>
-            </div>
+            
+          <table>
+  <tr>
+    <th>Tipo de Equipamento</th>
+    <th>Hostname</th>
+    <th>Data de vencimento</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>11/12/2023</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  
+  
+</table>
+
           </div>
      
         </div>

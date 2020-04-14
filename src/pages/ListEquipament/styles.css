@@ -1,0 +1,365 @@
+@font-face {
+  font-family: "GilroyBold";
+  src: url("../../assets/fonts/Gilroy-ExtraBold.otf");
+  font-family: "GilroyLight";
+  src: url("../../assets/fonts/Gilroy-Light.otf");
+}
+
+.content-dashboard {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100px;
+  background: #49334d;
+  position: fixed;
+}
+
+.content-dashboard .menu .logo {
+  display: flex;
+  height: 100px;
+  background: #e68d0b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-dashboard .menu .menu-items {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 52px;
+}
+
+.content-dashboard .menu .menu-items svg {
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.content-dashboard .menu .menu-items svg {
+  background: #ffffff;
+}
+
+.content-dashboard .menu .logo a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "GilroyBold";
+  font-size: 30px;
+}
+
+.main-dash {
+  width: 100%;
+  margin: 20px;
+}
+
+.title-header {
+  background: #dfe1eb;
+}
+
+
+.login-pic-container img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.login-pic-container svg {
+  margin-right: 24px;
+}
+
+.login-pic-container .profile-content {
+  display: flex;
+
+}
+
+.login-pic-container svg + svg {
+  margin-right: 0;
+}
+.login-pic-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between  ;
+  margin-left: 100px;
+
+}
+
+.login-pic-container p {
+  color: #000000;
+  text-decoration: none;
+  font-family: "GilroyLight";
+  margin: 14px;
+}
+
+.login-pic-container p span {
+  color: #8b8888;
+  text-decoration: none;
+  font-family: "GilroyLight";
+}
+
+.title-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.login-pic-container button {
+  width: 225px;
+  height: 50px;
+  border-radius: 5px;
+  font-family: "GilroyBold";
+  background: #ffffff;
+  border: 1px solid #dadce6;
+
+  color: #612f74;
+  flex-wrap: wrap;
+}
+
+.login-pic-container button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-pic-container button + button {
+  display: flex;
+  align-items: center;
+  width: 225px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  font-family: "GilroyBold";
+  background: #612f74;
+  color: #ffffff;
+}
+
+.login-pic-container button + button svg {
+  margin-right: 5px;
+}
+
+.test p {
+  display: inline-block;
+  color: #000000;
+  text-decoration: none;
+  font-family: "GilroyBold";
+  font-size: 30px;
+  margin-left: 17px;
+}
+
+.test {
+  margin-left: 100px;
+  background: #dfe1eb;
+  margin-bottom: 10px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+  margin-left: 100px;
+}
+.cards {
+  grid-column: 1/4;
+  grid-row: 1/4;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  color: #612f74;
+  background: #ffffff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 13px 0px 0px rgb(232, 232, 236);
+-moz-box-shadow: 0px 13px 0px 0px rgb(232, 232, 236);
+box-shadow: 0px 6px 0px 0px rgb(232, 232, 236);
+}
+
+.cards table {
+  width: 100%;
+  
+}
+.cards tr:nth-child(even){background-color: #f2f2f2;}
+
+
+.cards td {
+  text-align: center;
+}
+
+
+.cards svg {
+  border-radius: 40%;
+  background: #f8f5fd;
+  
+}
+
+.button-house {
+  display: flex;
+}
+
+.button-house  button + button{
+margin-left: 20px;
+}
+
+.cards .cards-expired {
+  background: rgb(237, 65, 79);
+}
+
+.big-card2{
+  grid-column: 3;
+  grid-row: 2;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+
+.cards2 {
+  padding: 18px;
+  grid-column: 3;
+  grid-row: 1;
+  background: #ffffff;
+  border-radius: 10px;
+  width: 100%;
+  height: 151px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.cards2 .text-container {
+  margin-left: 25px;
+}
+
+.cards2 .text-container span {
+  font-family: "GilroyBold";
+  color: #000000;
+}
+
+.cards2 .text-container  {
+  font-family: "GilroyLight";
+  color: #A6ACBE;
+}
+
+
+
+
+.cards p {
+  font-size: 16px;
+  color: #a6acbe;
+  margin-top: 11px;
+  font-family: "GilroyLight";
+}
+
+.cards .text-container {
+  color: #000000;
+  font-family: "GilroyBold";
+  font-size: 30px;
+}
+
+.cards .text-container {
+  margin-left: 30px;
+}
+
+.cards .button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  width: 100%;
+}
+
+.cards .button button {
+  width: 225px;
+height: 50px;
+background: #F8F8FB;
+border-radius: 5px;
+border: none;
+color: #612f74;
+font-family: "GilroyBold";
+margin-left: 40px;
+}
+
+.cards .button button + button{
+  width: 225px;
+height: 50px;
+background: #98C632;
+border-radius: 5px;
+border: none;
+color: #ffff;
+font-family: "GilroyBold";
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+.cards form .button{
+ display: flex;
+ flex-direction: column;
+}
+
+.cards form .colum2 {
+  margin-left: 50px;
+}
+
+.cards form .colum1 input  {
+
+  margin-bottom: 23px;
+}
+
+.cards form .form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards form textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+}
+
+
+.cards .cards-warning {
+}
+
+@media only screen and (max-width: 760px) {
+
+  .main-dash {
+    margin-left: 10px;
+  }
+  .cards-container {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .cards-container .cards {
+    margin-bottom: 20px;
+  }
+
+  .login-pic-container {
+    margin: 0;
+    margin-left: 100px;
+  }
+
+.login-pic-container button {
+    width: 50px;
+  }
+
+  .login-pic-container button svg {
+    margin: 0;
+  }
+  .login-pic-container button + button svg {
+    margin: 0;
+  }
+
+  .login-pic-container button + button {
+    width: 50px;
+  }
+  .login-pic-container button span {
+    display: none;
+  }
+
+  .login-pic-container p {
+    display: none;
+  }
+}
