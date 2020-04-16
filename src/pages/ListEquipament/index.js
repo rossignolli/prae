@@ -97,154 +97,258 @@ export default function ListEquipament() {
 
         <div className="cards-container">
           <div className="cards">
-            
-          <table>
-  <tr>
-    <th>Tipo de Equipamento</th>
-    <th>Hostname</th>
-    <th>Data de vencimento</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>11/12/2023</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>11/12/2020</td>
-  </tr>
-  
-  
-  
-</table>
-
+            <table>
+              <tr>
+                <th>Tipo de Equipamento</th>
+                <th>Hostname</th>
+                <th>Data de vencimento</th>
+                <th>Ações</th>
+              </tr>
+              <tr>
+                <td>Desktop</td>
+                <td>Smith</td>
+                <td>11/12/2023</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Desktop</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Desktop</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Desktop</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Desktop</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>{" "}
+              <tr>
+                <td>Notebook</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Notebook</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Desktop</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Desktop</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Desktop</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Desktop</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Desktop</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Deskto</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Notebook</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Desktop</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Desktop</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Desktop</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Desktop</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>{" "}
+              <tr>
+                <td>Desktop</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Desktop</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Desktop</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Desktop</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Desktop</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Desktop</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Desktop</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Desktop</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Notebook</td>
+                <td>Jackson</td>
+                <td>11/12/2020</td>
+                <td>
+                  <button type="submit">Editar</button>
+                  <button type="submit">Excluir</button>
+                </td>
+              </tr>
+            </table>
           </div>
-     
         </div>
       </div>
     </div>

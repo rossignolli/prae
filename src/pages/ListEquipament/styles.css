@@ -318,6 +318,33 @@ font-family: "GilroyBold";
   resize: none;
 }
 
+td button {
+background: #98C632;
+border-radius: 5px;
+border: none;
+color: #ffff;
+font-family: "GilroyBold";
+padding: 10px;
+}
+
+td {
+  font-family: "GilroyLight";  
+  color: #000000;
+border-radius: 8px;
+border: none;
+}
+ 
+
+th {
+  font-family: "GilroyBold";
+  color: #000000;
+  padding: 10px;
+}
+td button + button {
+  margin-left: 10px;
+  background: #E68D0B;
+}
+
 
 .cards .cards-warning {
 }
