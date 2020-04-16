@@ -232,6 +232,13 @@ export default function ListEquipament() {
     <td>Jackson</td>
     <td>11/12/2020</td>
   </tr>
+
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>11/12/2020</td>
+  </tr>
+  
   
   
 </table>
