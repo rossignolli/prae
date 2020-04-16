@@ -120,7 +120,6 @@ export default function AddEquipament() {
               <button type="submit">Adicionar Equipamento</button>
             </div>
           </div>
-     
         </div>
       </div>
     </div>

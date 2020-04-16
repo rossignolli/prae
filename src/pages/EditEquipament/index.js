@@ -115,6 +115,9 @@ export default function ListEquipament() {
               <input type="text"/>
               </div>
             </form>
+            <div className="table">
+
+</div>
               <div className="button-house">
                 <button type="submit">Cancelar</button>
                 <button type="submit">Atualizar</button>

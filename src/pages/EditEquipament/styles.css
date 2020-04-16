@@ -191,6 +191,18 @@
   color: #ffffff;
 }
 
+.cards .table {
+  margin-top: 20px;
+  border-top: black;
+  border-top: 1px solid #ddd;
+  color: #a6acbe;
+  border-radius: 4px;
+}
+
+.cards .button-house {
+  margin-top: 30px;
+}
+
 
 .button-house {
   display: flex;
