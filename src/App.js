@@ -5,12 +5,14 @@ import Dashboard from '../src/pages/Dashboard'
 import './App.css';
 import AddEquipament from './pages/AddEquipament';
 import ListEquipament from './pages/ListEquipament';
+import EditEquipament from './pages/EditEquipament'
 
 function App() {
   return (
     //<Logon/>
     // <Dashboard/>
-    <ListEquipament/>
+    <EditEquipament/>
+    //<ListEquipament/>
     //<AddEquipament/>
   );
 }
