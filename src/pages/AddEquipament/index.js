@@ -96,6 +96,7 @@ export default function AddEquipament() {
         </div>
 
         <div className="cards-container">
+
           <div className="cards">
             <form action="" method="post">
               <div className="form">
@@ -120,6 +121,7 @@ export default function AddEquipament() {
               <button type="submit">Adicionar Equipamento</button>
             </div>
           </div>
+          
         </div>
       </div>
     </div>

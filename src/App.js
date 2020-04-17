@@ -9,9 +9,9 @@ import EditEquipament from './pages/EditEquipament'
 
 function App() {
   return (
-    //<Logon/>
-    // <Dashboard/>
-    <EditEquipament/>
+   // <Logon/>
+    <Dashboard/>
+    //<EditEquipament/>
     //<ListEquipament/>
     //<AddEquipament/>
   );
