@@ -143,7 +143,7 @@ export default function Dashboard() {
           <div className="cards-dash">
           <FiTrendingUp size={60} color="#98C632" />
             <div className="text-container">
-              12 <p>Preventivas efetuadas em <b>6 meses</b></p>
+              18 <p>Preventivas efetuadas em <b>6 meses</b></p>
             </div>
           </div>
           <div className="cards-dash">
