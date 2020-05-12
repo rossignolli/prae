@@ -1,4 +1,5 @@
 import React from "react";
+import { Chart } from 'react-charts'
 import {
   FiFolder,
   FiBarChart2,
@@ -17,17 +18,24 @@ import {
 
 } from "react-icons/fi";
 import Rogerinho from "../../assets/images/profile.jpg";
-import chart1 from "../../assets/images/chart.png";
-import chart2 from "../../assets/images/chart2.png";
-
 
 //import {} from 'react-icons/fi'
 
 import "./styles.css";
 
+
+
 export default function Dashboard() {
   return (
+
+
+    
     <div className="content-dashboard">
+
+
+
+
+      
       <div className="menu">
         <div className="logo">
           <a href="main">Prae</a>
@@ -80,9 +88,9 @@ export default function Dashboard() {
             </button>
             <div className="profile-content">
             <p>
-              Rogerinho Mauricio dos Santos <br /> &nbsp; &nbsp;
+              Rogerinho do Ingá <br /> &nbsp; &nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <span>Técnico</span>
+              <span>Motorista</span>
             </p>
             <img className="profile-pic" src={Rogerinho} alt="Profile Pic" />
             <FiChevronDown size={20} color="#422047" />
@@ -129,30 +137,6 @@ export default function Dashboard() {
             </div>
           </div>
           <div className="cards-dash">
-          <FiTrendingUp size={60} color="#98C632" />
-            <div className="text-container">
-              12 <p>Preventivas efetuadas em <b>6 meses</b></p>
-            </div>
-          </div>
-          <div className="cards-dash">
-          <FiTrendingUp size={60} color="#98C632" />
-            <div className="text-container">
-              12 <p>Preventivas efetuadas em <b>6 meses</b></p>
-            </div>
-          </div>
-          <div className="cards-dash">
-          <FiTrendingUp size={60} color="#98C632" />
-            <div className="text-container">
-              12 <p>Preventivas efetuadas em <b>6 meses</b></p>
-            </div>
-          </div>
-          <div className="cards-dash">
-          <FiTrendingUp size={60} color="#98C632" />
-            <div className="text-container">
-              12 <p>Preventivas efetuadas em <b>6 meses</b></p>
-            </div>
-          </div>
-          <div className="cards-dash">
           <FiAlertCircle className="cards-warning" size={60} color="#E68D0B" />
             <div className="text-container">
               65 <p>Preventivas perto do vencimento</p>
@@ -164,15 +148,17 @@ export default function Dashboard() {
               65 <p>Preventivas perto do vencimento</p>
             </div>
           </div>
-         
+          <div className="big-card-dash">
+          <FiCalendar className="cards-expired" size={60} color="#FFF" />
+            Testeaaaaaa
+          </div>
           <div className="big-card2-dash">
           <FiCalendar className="cards-expired" size={60} color="#FFF" />
-          <img src={chart1} alt="chart" />
-
+           Teste
           </div>
           <div className="big-card3-dash">
           <FiCalendar className="cards-expired" size={60} color="#FFF" />
-          <img src={chart1} alt="chart" />
+           Teste
           </div>
         </div>
       </div>
