@@ -1,6 +1,30 @@
-# Prae
+# Prae - Preventivas Corporativas
 
 Prae é uma  aplicação conceito de preventivas corporativas, realizei algumas telas em React, sendo minha primeira empreitada na tecnologia.
+
+Este código (FronteEnd)está sendo liberado caso alguém queira aproveitar essas telas na qual desevolvi para estudo voltada em uma aplicação real.
+
+# Tela de login:
+
+Simples tela de login personalizada.
+
+
+![](screenshots/Login.png)
+
+# Tela Dashboard
+
+Tela Dashboard para controlar as estatisticas dos técnicos e projetar metas.
+
+![](screenshots/Dashboard.png)
+
+# Adicionar equipamentos
+
+Tela simples para adição de equipamentos para serem monitorados.
+
+![](screenshots/AddEquipament.png)
+
+
+
 
 
 
