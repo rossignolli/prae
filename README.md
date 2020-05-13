@@ -2,7 +2,7 @@
 
 Prae é uma  aplicação conceito de preventivas corporativas, realizei algumas telas em React, sendo minha primeira empreitada na tecnologia.
 
-Este código (FronteEnd)está sendo liberado caso alguém queira aproveitar essas telas na qual desevolvi para estudo voltada em uma aplicação real.
+Este código (Frontend) está sendo liberado caso alguém queira aproveitar essas telas na qual desevolvi para estudo voltada para uma  aplicação real.
 
 # Tela de login:
 
@@ -23,91 +23,74 @@ Tela simples para adição de equipamentos para serem monitorados.
 
 ![](screenshots/AddEquipament.png)
 
+# Atualização de equipamentos
+
+Tela para atualização de equipamento.
+
+![](screenshots/Equipament_Update.png)
+
+# Tela de listagem
+
+Tela para listagem completa de equipamentos
+
+![](screenshots/EquipamentList.png)
 
 
 
+## Instalação
 
+Siga as instruções caso queira a versão em código em seu navegador.
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Navegue no terminal até a pasta onde você clonou o repositório e digite no console:
 
 ```
-Give the example
+npm install 
 ```
 
-And repeat
+Depois que as depedencias forem baixadas:
 
 ```
-until finished
+npm start 
+```
+## Rotas
+
+
+A página principal da aplicação após execução é Logon. Não implementei as rotas do React, pois não teria aproveitamento desse código para alguém caso queira reaproveitar o JSX. Em <b> src/App.js</b> apenas retire os comentários. 
+
+
+
+(Retire os comentários de apenas uma página por vez)
+```
+function App() {
+  return (
+    <Logon/>
+    //<Dashboard/>
+    //<EditEquipament/>
+     //<ListEquipament/>
+    //<AddEquipament/>
+  );
+}
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+## Dependencias usadas:
 
-Explain how to run the automated tests for this system
+* [React](https://github.com/facebook/react) - Framework
+* [Feather Icons](https://github.com/feathericons/feather) - Icones
+* [Figma](https://www.figma.com/files/recent) - Ferramenta de Design
+* Usei paleta de cores da Nubank.
+![](screenshots/nucolor.png)
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+Vitor Vigarani
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Projeto licenciado sobre MIT License -  [LICENSE.md](LICENSE.md)
 
-## Acknowledgments
+## Agradecimentos
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* A Rocketeseat pela semana Oministack na qual adquiri alguns conhecimentos basicos de React.
+
