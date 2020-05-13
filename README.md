@@ -87,8 +87,12 @@ function App() {
  
 ![](screenshots/nucolor.png)
 
+ ## Atenção!
+ 
+ Interfaces e código desevolvidos para estudo, poderá ocorrer bugs ou problemas.
 
-## Authors
+
+## Autor
 
 Vitor Vigarani
 
