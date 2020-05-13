@@ -1,8 +1,8 @@
 # Prae - Preventivas Corporativas
 
-Prae é uma  aplicação conceito de preventivas corporativas, realizei algumas telas em React, sendo minha primeira empreitada na tecnologia.
+Prae é uma  aplicação conceito de preventivas corporativas. Realizei algumas telas em React, sendo minha primeira empreitada na tecnologia.
 
-Este código (Frontend) está sendo liberado caso alguém queira aproveitar essas telas na qual desevolvi para estudo voltada para uma  aplicação real.
+Este código (Frontend) está sendo liberado caso alguém queira aproveitar essas telas na qual desenvolvi para estudo voltada para uma  aplicação real.
 
 # Tela de login:
 
@@ -13,7 +13,7 @@ Simples tela de login personalizada.
 
 # Tela Dashboard
 
-Tela Dashboard para controlar as estatisticas dos técnicos e projetar metas.
+Tela Dashboard para controlar  estatística  dos técnicos e projetar metas.
 
 ![](screenshots/Dashboard.png)
 
@@ -41,13 +41,13 @@ Tela para listagem completa de equipamentos
 
 Siga as instruções caso queira a versão em código em seu navegador.
 
-Navegue no terminal até a pasta onde você clonou o repositório e digite no console:
+Navegue no terminal até a pasta onde você clonou o repositório e digite no terminal:
 
 ```
 npm install 
 ```
 
-Depois que as depedencias forem baixadas:
+Depois que as dependências forem baixadas:
 
 ```
 npm start 
@@ -55,7 +55,7 @@ npm start
 ## Rotas
 
 
-A página principal da aplicação após execução é Logon. Não implementei as rotas do React, pois não teria aproveitamento desse código para alguém caso queira reaproveitar o JSX. Em <b> src/App.js</b> apenas retire os comentários. 
+A página principal da aplicação após execução é o Logon. Não implementei as rotas do React, pois não teria aproveitamento desse código para alguém caso queira reaproveitar o JSX. Em <b> src/App.js</b> apenas retire as linhas de código comentadas:
 
 
 
@@ -73,7 +73,7 @@ function App() {
 ```
 
 
-## Dependencias usadas:
+## Dependências usadas:
 
 * [React](https://github.com/facebook/react) - Framework
 * [Feather Icons](https://github.com/feathericons/feather) - Icones
@@ -89,7 +89,7 @@ function App() {
 
  ## Atenção!
  
- Interfaces e código desevolvidos para estudo, poderá ocorrer bugs ou problemas.
+ Interfaces e código desenvolvido para estudo, poderá ocorrer bugs ou problemas.
 
 
 ## Autor
