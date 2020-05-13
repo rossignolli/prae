@@ -78,7 +78,13 @@ function App() {
 * [React](https://github.com/facebook/react) - Framework
 * [Feather Icons](https://github.com/feathericons/feather) - Icones
 * [Figma](https://www.figma.com/files/recent) - Ferramenta de Design
-* Usei paleta de cores da Nubank.
+ Usei paleta de cores da Nubank.
+ 
+ 
+ ## Curiosidade:
+ 
+ Foi usada a paleta de cores da Nubank :)
+ 
 ![](screenshots/nucolor.png)
 
 
